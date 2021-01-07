@@ -1,0 +1,113 @@
+.tablesmain {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.table {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white !important;
+}
+input {
+  border: none;
+}
+.inputDiv {
+  background-color: rgb(255, 12, 12);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.Headers {
+  background-color: rgb(248, 238, 198);
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cellsName {
+  min-width: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid rgb(242, 242, 242);
+}
+.cells {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
+  color: black !important;
+  border: 0.5px solid rgb(242, 242, 242);
+}
+.cells > input {
+  font-weight: 500;
+  /* font-family: cursive !important; */
+  border: none !important;
+  text-align: center;
+  color: black !important;
+}
+
+.deadcells {
+  display: flex;
+  background-color: orange;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255) !important;
+}
+
+.deadcells > input {
+  display: flex;
+  text-align: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: orange;
+  border: none !important;
+  color: white !important;
+}
+
+.totalHours {
+  border: 0.5px solid rgb(242, 242, 242);
+}
+
+.Name {
+  padding: 5px;
+  display: flex;
+  flex: row wrap;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.positionName {
+  padding: 5px;
+  color: rgb(69, 192, 206);
+  display: flex;
+  flex: row wrap;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.HeadingCell {
+  border: 0.5px solid rgb(250, 250, 250);
+}
+.HeadingCell > h4 {
+  padding: 0px;
+}
+
+.cells > h2 {
+  color: darkgreen;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  align-items: center;
+  font-family: cursive;
+  justify-content: center;
+}
