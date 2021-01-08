@@ -45,9 +45,9 @@ function Firstside() {
         {" "}
         <Sidebarcomponent text="Sales" Icon={MonetizationOnIcon} />
       </Link>
-      <Link style={{ color: "white", textDecoration: "none" }} to={"/roster"}>
+      <Link style={{ color: "white", textDecoration: "none" }} to={"/products"}>
         {" "}
-        <Sidebarcomponent text="Supplier" Icon={NotificationImportantIcon} />
+        <Sidebarcomponent text="Products" Icon={NotificationImportantIcon} />
       </Link>
       <Link style={{ color: "white", textDecoration: "none" }} to={"/roster"}>
         <Sidebarcomponent Icon={MessageIcon} text="Purchase" />
