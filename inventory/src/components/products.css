@@ -1,0 +1,62 @@
+.productsmain {
+  flex: 0.66;
+  background-color: rgb(240, 234, 234);
+  height: 95vh;
+  border-right: 1px solid rgb(21, 21, 21);
+  margin-top: 20px;
+  padding-right: 2px;
+  padding-left: 20px;
+  color: white;
+}
+
+.prroductscroll > h2 {
+  color: grey;
+}
+.prroductscroll {
+  width: 1000px;
+  min-width: 900px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: grey !important;
+  font-family: cursive;
+  background-color: rgb(255, 255, 255);
+}
+
+.MainProductName {
+  width: 100%;
+  background-color: rgb(157, 155, 155);
+  height: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 10px;
+  color: rgb(56, 55, 55);
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MainProductHelp {
+  width: 100%;
+  background-color: rgb(220, 219, 219);
+  height: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 10px;
+  color: rgb(89, 88, 88);
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductSearchSection {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 10px;
+  color: rgb(89, 88, 88);
+  justify-content: center;
+  align-items: center;
+}
+.ProductSearchSection_Inputs {
+  padding: 10px;
+}
