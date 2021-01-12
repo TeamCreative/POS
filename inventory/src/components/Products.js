@@ -32,7 +32,7 @@ function Products() {
         <div className="MainProductName">
           <h2>Products</h2>
         </div>
-        <div className="MainProductHelp">
+        <div className= "MainProductHelp">
           <p>Add,view and Edit your products all in one Place</p>
         </div>
 

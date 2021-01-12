@@ -5,7 +5,8 @@ import Firstside from "./components/Firstside";
 
 import Dashboard from "./components/Dashboard";
 import Roster from "./components/Roster";
-import Products from './components/Products'
+import Products from './components/Products';
+import Kitchenrecords from './components/Kitchenrecords'
 //commponents Imports
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -29,6 +30,10 @@ function App() {
           <Route path="/products" exact>
             <Firstside />
             <Products />
+          </Route>
+        <Route path="/kitchenrecords" exact>
+            <Firstside />
+            < Kitchenrecords/>
           </Route>
         </Switch>
       </div>
