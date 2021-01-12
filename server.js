@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -95,4 +95,3 @@ app.use(express.json());
 app.listen(port, () =>{
     console.log(`server is running on port : ${port}`);
 });
->>>>>>> fbe128ece026d02a1b67fed6dd51582a9dce6a90
