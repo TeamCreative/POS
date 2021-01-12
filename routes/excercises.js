@@ -124,11 +124,11 @@ router.route("/access").post(async (req, res, next) => {
   await transporter.sendMail(mail, (err, data) => {
     if (err) {
       res.json({
-        status: "fail",
+        status: " Email failed , please contact help desk",
       });
     } else {
       res.json({
-        status: "success",
+        status: `Email Sent Successfully to ${description}`,
       });
     }
   });
