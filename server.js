@@ -87,6 +87,9 @@ app.use('/excercises',excerciseRouter);
 // app.use('/approoved',apprrovedRouter)
 //  app.use('/lub',gur)
 
+
+
+
 app.use(express.json());
 
 app.listen(port, () =>{
