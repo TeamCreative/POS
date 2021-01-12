@@ -1,0 +1,29 @@
+
+.maindiv{
+    /* flex:0.5; */
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.chartDiv{
+    margin: 20px;
+    flex: 0.45;
+    /* width: 33%; */
+    height:300px;
+    background-color: white;
+}
+.values{
+ display: flex;
+ flex-flow: column wrap;
+ align-items: center;
+ justify-content: center;
+ padding-left: 20px;
+ padding-right: 20px;
+}

@@ -1,0 +1,28 @@
+.rostermain {
+  flex: 0.66;
+  background-color: white;
+  border-right: 1px solid rgb(21, 21, 21);
+  margin-top: 20px;
+  /* padding-right: 20px;
+       padding-left: 20px; */
+  color: black;
+}
+.Heading {
+  background-color: rgb(255, 255, 255) !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Heading > h2{
+    font-family: cursive;
+}
